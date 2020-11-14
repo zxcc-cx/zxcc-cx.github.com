@@ -6,7 +6,7 @@ function changeImage(){
 		element.src="image/pic_bulbon.gif";
 	}
  }
- function jt(){
+ 
 	function getDate(){
 		//获取当前时间
 		var date = new Date();
@@ -19,4 +19,4 @@ function changeImage(){
 	}
 	//使用定时器每秒向div写入当前时间
 	setInterval("getDate()",1000);
- }
+ 
